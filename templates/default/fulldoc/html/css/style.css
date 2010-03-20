@@ -98,7 +98,8 @@ dl.constants dd { width: 75%; white-space: pre; font-family: monospace; margin-b
 dl.constants .summary_desc { font-size: 0.9em; font-weight: normal; }
 
 .method_details { border-top: 1px dotted #aaa; margin-top: 15px; padding-top: 0; }
-.method_details.first { border: 0; }
+.method_details.first { position: relative; top: -15px; margin-bottom: -15px; border-top: transparent solid; }
+
 p.signature { 
   font-size: 1.1em; font-weight: normal; font-family: Monaco, Consolas, Courier, monospace; 
   padding: 6px 10px; margin-top: 18px; 
