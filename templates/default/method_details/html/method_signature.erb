@@ -1,4 +1,4 @@
-<p class="signature <%= 'first' if @index == 0 %>" id="<%= anchor_for(object) %>">
+<p class="signature <%= 'first' if @index == 0 %>"">
   <% if object.tags(:overload).size == 1 %>
     <%= signature(object.tag(:overload), false) %>
   <% elsif object.tags(:overload).size > 1 %>
